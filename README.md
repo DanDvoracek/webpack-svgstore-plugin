@@ -1,25 +1,23 @@
 # WEBPACK PLUGIN
 
 ```
-███████╗██╗   ██╗ ██████╗     ███████╗████████╗ ██████╗ ██████╗ ███████╗
-██╔════╝██║   ██║██╔════╝     ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝
-███████╗██║   ██║██║  ███╗    ███████╗   ██║   ██║   ██║██████╔╝█████╗  
-╚════██║╚██╗ ██╔╝██║   ██║    ╚════██║   ██║   ██║   ██║██╔══██╗██╔══╝  
-███████║ ╚████╔╝ ╚██████╔╝    ███████║   ██║   ╚██████╔╝██║  ██║███████╗
-╚══════╝  ╚═══╝   ╚═════╝     ╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝                                                                     
+ ____  _  _   ___    ____  ____  __  ____  ____                         
+/ ___)/ )( \ / __)  / ___)(_  _)/  \(  _ \(  __)                        
+\___ \\ \/ /( (_ \  \___ \  )( (  O ))   / ) _)                         
+(____/ \__/  \___/  (____/ (__) \__/(__\_)(____)                        
+ ____  ____  __  ____    ____  _  _    ____  ____  __  _  _  _  _  __   
+(  __)(    \(  )(_  _)  (  _ \( \/ )  / ___)(_  _)(  )( \/ )/ )( \(  )  
+ ) _)  ) D ( )(   )(     ) _ ( )  /   \___ \  )(   )( / \/ \) \/ (/ (_/\
+(____)(____/(__) (__)   (____/(__/    (____/ (__) (__)\_)(_/\____/\____/                                             
 ```
 
-[![NPM](https://nodei.co/npm/webpack-svgstore-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/webpack-svgstore-plugin/)
-
-## Package info
-[![Build Status](https://travis-ci.org/mrsum/webpack-svgstore-plugin.svg?branch=master)](https://travis-ci.org/mrsum/webpack-svgstore-plugin)
-[![NPM version](https://badge.fury.io/js/webpack-svgstore-plugin.svg)](https://badge.fury.io/js/webpack-svgstore-plugin)
-[![Code Climate](https://codeclimate.com/github/mrsum/webpack-svgstore-plugin/badges/gpa.svg)](https://codeclimate.com/github/mrsum/webpack-svgstore-plugin)
-[![Test Coverage](https://codeclimate.com/github/mrsum/webpack-svgstore-plugin/badges/coverage.svg)](https://codeclimate.com/github/mrsum/webpack-svgstore-plugin/coverage)
 
 ## Installation
+
+This is a fork from https://www.npmjs.com/package/webpack-svgstore-plugin. Make sure to fallback on its dock if you have any issue.
+
 ```bash
-npm i webpack-svgstore-plugin --save-dev
+npm i webpack-svgstore-plugin-stimulWP --save-dev
 ```
 
 ## We are not maintain version for node.js 0.12 more
@@ -27,12 +25,6 @@ Only:
 - "7.0+"
 - "6.0"
 - "4.0"
-
-
-## Webpack version support
-Use webpack-svgstore-plugin@3.x.x for Webpack 1.x.x  
-Use webpack-svgstore-plugin@4.x.x for Webpack 2.x.x
-
 
 ## Webpack configuration
 
