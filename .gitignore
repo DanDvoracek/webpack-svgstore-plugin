@@ -7,3 +7,4 @@ sprites/
 .idea/
 *.log
 *.lock
+.DS_Store

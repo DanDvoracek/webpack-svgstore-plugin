@@ -25,7 +25,8 @@ var svgXHR = function(options) {
     if (typeof window.baseUrl !== 'undefined') {
       baseUrl = window.baseUrl;
     } else {
-      baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+      // baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+      baseUrl = window.themeUrl + '/assets/';
     }
   }
 

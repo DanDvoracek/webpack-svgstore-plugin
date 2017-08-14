@@ -1,7 +1,7 @@
 {
-  "name": "webpack-svgstore-plugin",
+  "name": "webpack-svgstore-plugin-stimulWP",
   "version": "4.0.1",
-  "description": "Webpack svgstore plugin",
+  "description": "Amended Webpack svgstore plugin for WP builds by Stimul",
   "main": "src/svgstore.js",
   "scripts": {
     "test": "NODE_ENV=platform ./node_modules/.bin/_mocha ./src/__tests__/index.js",
@@ -18,6 +18,10 @@
     {
       "name": "Gordey Levchenko",
       "email": "levchenko.gordey@gmail.com"
+    },
+    {
+      "name": "Dan Dvoracek",
+      "email": "dan@stimul.ch"
     }
   ],
   "license": "MIT",
@@ -40,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrsum/webpack-svgstore-plugin"
+    "url": "https://github.com/DanDvoracek/webpack-svgstore-plugin.git"
   }
 }
