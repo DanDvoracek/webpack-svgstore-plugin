@@ -1,14 +1,19 @@
 # WEBPACK PLUGIN
 
 ```
- ____  _  _   ___    ____  ____  __  ____  ____                         
-/ ___)/ )( \ / __)  / ___)(_  _)/  \(  _ \(  __)                        
-\___ \\ \/ /( (_ \  \___ \  )( (  O ))   / ) _)                         
-(____/ \__/  \___/  (____/ (__) \__/(__\_)(____)                        
- ____  ____  __  ____    ____  _  _    ____  ____  __  _  _  _  _  __   
-(  __)(    \(  )(_  _)  (  _ \( \/ )  / ___)(_  _)(  )( \/ )/ )( \(  )  
- ) _)  ) D ( )(   )(     ) _ ( )  /   \___ \  )(   )( / \/ \) \/ (/ (_/\
-(____)(____/(__) (__)   (____/(__/    (____/ (__) (__)\_)(_/\____/\____/                                             
+
+   ______    ________   _______________  ____  ______
+  / ___/ |  / / ____/  / ___/_  __/ __ \/ __ \/ ____/
+  \__ \| | / / / __    \__ \ / / / / / / /_/ / __/   
+ ___/ /| |/ / /_/ /   ___/ // / / /_/ / _, _/ /___   
+/____/ |___/\____/   /____//_/  \____/_/ |_/_____/                      
+
+         ___ __    __          ______  _            __     __ 
+ ___ ___/ (_) /_  / /  __ __  / __/ /_(_)_ _  __ __/ /____/ / 
+/ -_) _  / / __/ / _ \/ // / _\ \/ __/ /  ' \/ // / // __/ _ \
+\__/\_,_/_/\__/ /_.__/\_, / /___/\__/_/_/_/_/\_,_/_(_)__/_//_/
+                     /___/                                    
+                                           
 ```
 
 
@@ -17,7 +22,7 @@
 This is a fork from https://www.npmjs.com/package/webpack-svgstore-plugin. Make sure to fallback on its dock if you have any issue.
 
 ```bash
-npm i webpack-svgstore-plugin-stimulWP --save-dev
+npm i stimulwp-webpack-svgstore-plugin --save-dev
 ```
 
 ## We are not maintain version for node.js 0.12 more
@@ -34,7 +39,7 @@ Only:
 #### 1) require plugin
 ```javascript
 //webpack.config.js
-var SvgStore = require('webpack-svgstore-plugin');
+var SvgStore = require('stimulwp-webpack-svgstore-plugin');
 module.exports = {
   plugins: [
     // create svgStore instance object
@@ -65,7 +70,7 @@ var __svg__           = { path: './assets/svg/**/*.svg', name: 'assets/svg/[hash
 // var __svgsprite__  = { path: './assets/svg/minify/*.svg', name: 'assets/svg/[hash].1logos.svg' };
 
 // require basic or custom sprite loader
-require('webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
+require('stimulwp-webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
 ```
 
 #### 2.1) **Stimul Notes**
@@ -77,7 +82,7 @@ As we keep our images/icons in the `/assets` folder (which is at the same level 
 
 ```javascript
 const __svg__ = { path: './../icons/**/*.svg', name: '../assets/svg-sprite.svg' };
-require('webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
+require('stimulwp-webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
 ```
 
 #### 2.2) **Important**

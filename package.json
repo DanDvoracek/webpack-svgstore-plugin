@@ -1,5 +1,5 @@
 {
-  "name": "webpack-svgstore-plugin-stimulWP",
+  "name": "stimulwp-webpack-svgstore-plugin",
   "version": "4.0.1",
   "description": "Amended Webpack svgstore plugin for WP builds by Stimul",
   "main": "src/svgstore.js",
